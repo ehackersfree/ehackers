@@ -1,0 +1,2667 @@
+#all
+{
+  position: fixed;
+  z-index: 30;
+  text-align:center;
+  width: 100%;
+
+}
+
+.hautdepage
+{
+  position:fixed;
+  background-color:black;
+  height:11.5%;
+  width:100%;
+  left:0%;
+  top:0%;
+  z-index:10;
+  margin-right: 2%;
+}
+
+.ACCUEIL
+{
+  position:absolute;
+  color:white;
+  top:0%;
+  text-align:center;
+  width: 99%; 
+  z-index:10;
+  text-decoration:none;
+  font-size:150%;
+  font-family:"Pixeled";
+}
+
+.JEUX
+{
+  position:absolute;
+  color:white;
+  top:0%;
+  text-align:center;
+  z-index:2;
+  text-decoration:none;
+  font-size:150%;
+  font-family:"Pixeled";
+}
+
+.ACTUALITE
+{
+  position:absolute;
+  color:white;
+  top:0%;
+  z-index:2;
+  text-decoration:none;
+  font-size:150%;
+  font-family:"Pixeled";
+}
+
+.ACCUEIL {
+  margin: 0;
+  font: 400 80px/1 "Pixeled";
+  /*le texte accueil et tout*/
+}
+
+.ACCUEIL {
+  top:14px;
+  font-size: 22px;
+  z-index:10;
+  /*configuration du texte*/
+  padding: .25em 15px;
+  position: relative;
+  transition: .5s ease;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ACCUEIL::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 0;
+  /*bloc d'animation*/
+  height:35px;
+  width: 5px;
+  transition: .5s ease;
+  background: white;
+  z-index: -1;
+}
+
+.ACCUEIL:hover {
+  color: red;
+  /*couleur du texte au survol*/
+}
+
+.ACCUEIL:hover::before {
+  width: 100%;
+  /*animation*/
+}
+
+.JEUX {
+  margin: 0;
+  font: 400 80px/1 "Pixeled";
+  /*le texte accueil et tout*/
+}
+
+.JEUX {
+  top:14px;
+  font-size: 22px;
+  z-index:10;
+  /*configuration du texte*/
+  padding: .25em 15px;
+  position: relative;
+  transition: .5s ease;
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.JEUX::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 0;
+  /*bloc d'animation*/
+  height:35px;
+  width: 5px;
+  transition: .5s ease;
+  background: white;
+  z-index: -1;
+}
+
+.JEUX:hover {
+  color: orange;
+  /*couleur du texte au survol*/
+}
+
+.JEUX:hover::before {
+  width: 100%;
+  /*animation*/
+}
+
+.ACTUALITE {
+
+  font: 400 80px/1 "Pixeled";
+  /*le texte accueil et tout*/
+}
+
+.ACTUALITE {
+  top:14px;
+  font-size: 22px;
+  z-index:10;
+  /*configuration du texte*/
+  padding: .25em 15px;
+  position: relative;
+  transition: .5s ease;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ACTUALITE::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 0;
+  /*bloc d'animation*/
+  height:35px;
+  width: 5px;
+  transition: .5s ease;
+  background: white;
+  z-index: -1;
+}
+
+.ACTUALITE:hover {
+  color: yellow;
+  /*couleur du texte au survol*/
+}
+
+.ACTUALITE:hover::before {
+  width: 100%;
+  /*animation*/
+}
+
+.nomdusite
+{
+  position: fixed;
+  top:-3.4%;
+  bottom: 100%;
+  left:8.5%;
+  color:white;
+  z-index:31;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.nomdusite:hover
+{
+  position: fixed;
+  top:-3.4%;
+  bottom: 100%;
+  left:7%;
+  color:white;
+  z-index:31;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.free
+{
+  position: fixed;
+  top:1.2%;
+  bottom: 100%;
+  left:11.8%;
+  color:white;
+  z-index:31;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.free:hover
+{
+  position: fixed;
+  top:1.2%;
+  bottom: 100%;
+  left:9%;
+  color:white;
+  z-index:31;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+h1
+{ 
+  animation: myfirst 10s infinite;
+  -webkit-animation: myfirst 10s infinite;
+  z-index: 9;
+  }
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes myfirst {
+    0%{color:red;}
+    25%{color: yellow;}
+    50%{color: blue;}
+    100%{color: green;}
+}
+
+h1
+{
+  position:absolute;
+  color:#4300A6;
+  top:15%;
+  left:42%;
+  font-family:"Pixeled";
+  font-size:120%; 
+}
+
+p
+{
+  position: absolute;
+  top: 10%;
+  z-index: 21;
+}
+
+#test
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 11.6%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 11.6%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test2
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 15.2%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test2:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 15.2%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test3
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 18.5%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test3:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 18.5%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test4
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 21.9%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test4:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 21.9%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test5
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 25.1%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test5:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 25.1%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test6
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 28.5%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test6:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 28.5%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test7
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 31.9%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test7:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 31.9%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test8
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 35.3%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test8:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 35.3%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test9
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 38.7%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test9:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 38.7%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test10
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 42.1%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test10:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 42.1%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test11
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 45.5%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test11:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 45.5%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test12
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 48.9%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test12:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 48.9%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test13
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 52.3%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test13:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 52.3%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test14
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 55.6%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test14:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 55.6%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test15
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 58.9%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test15:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 58.9%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test16
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 62.3%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test16:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 62.3%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test17
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 65.6%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test17:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 65.6%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test18
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 68.9%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test18:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 68.9%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test19
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 72.3%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test19:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 72.3%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test20
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 75.7%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test20:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 75.7%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test21
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 79.1%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test21:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 79.1%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test22
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 82.5%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test22:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 82.5%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test23
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 85.9%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test23:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 85.9%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+#test24
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 89.3%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test24:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 89.3%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test25
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  width: 2.1%;
+  top: 92.7%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test25:hover
+{
+  position: fixed;
+  background-color: white;
+  height:3.6%;
+  top: 92.7%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test26
+{
+  position: fixed;
+  background-color: white;
+  height:4%;
+  width: 2.1%;
+  top: 96.1%;
+  z-index:11;
+  left:0%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#test26:hover
+{
+  position: fixed;
+  background-color: white;
+  height:4%;
+  top: 96.1%;
+  width: 3%;
+  z-index:11;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+
+
+#Aenbas
+{
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.AA
+{
+  position: absolute;
+  color: black;
+  text-decoration: none;
+  top: -30%;
+  font-size: 12px;
+  font-family: "Pixeled";
+  z-index: 100;
+  right: 15%;
+}
+
+#Benbas
+{
+  position: absolute;
+  top: 93.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.BB
+{
+  position: absolute;
+  color: black;
+  text-decoration: none;
+  top: -35%;
+  font-size: 12px;
+  font-family: "Pixeled";
+  z-index: 100;
+  right: 15%;
+}
+
+#Cenbas
+{
+  position: absolute;
+  top: 172%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.CC
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-35%;
+  font-size:12px;
+  color: black;
+  right: 15%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Denbas
+{
+  position: absolute;
+  top: 250.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.DD
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-35%;
+  font-size:12px;
+  color: black;
+  right: 15%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Eenbas
+{
+  position: absolute;
+  top: 329%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.EE
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Fenbas
+{
+  position: absolute;
+  top: 407.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.FF
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Genbas
+{
+  position: absolute;
+  top: 485.9%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.GG
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Henbas
+{
+  position: absolute;
+  top: 564.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.HH
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Ienbas
+{
+  position: absolute;
+  top: 643%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.II
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 20%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Jenbas
+{
+  position: absolute;
+  top: 721.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.JJ
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Kenbas
+{
+  position: absolute;
+  top: 800%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.KK
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Lenbas
+{
+  position: absolute;
+  top: 878.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.LL
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Menbas
+{
+  position: absolute;
+  top: 957%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.MM
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 13%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Nenbas
+{
+  position: absolute;
+  top: 1035.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.NN
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Oenbas
+{
+  position: absolute;
+  top: 1114%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.OO
+{
+ position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Penbas
+{
+  position: absolute;
+  top: 1192.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.PP
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 17%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Qenbas
+{
+  position: absolute;
+  top: 1271%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.QQ
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 13%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Renbas
+{
+  position: absolute;
+  top: 1349.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.RR
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 15%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Senbas
+{
+  position: absolute;
+  top: 1428%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.SS
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 15%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Tenbas
+{
+  position: absolute;
+  top: 1506.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.TT
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 13%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Uenbas
+{
+  position: absolute;
+  top: 1585%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.UU
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 16%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Venbas
+{
+  position: absolute;
+  top: 1663.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.VV
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-32%;
+  font-size:11.5px;
+  color: black;
+  right: 13%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Wenbas
+{
+  position: absolute;
+  top: 1742%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.WW
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-28%;
+  font-size:11.5px;
+  color: black;
+  right: 13%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Xenbas
+{
+  position: absolute;
+  top: 1820.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.XX
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-28%;
+  font-size:11.5px;
+  color: black;
+  right: 13%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Yenbas
+{
+  position: absolute;
+  top: 1899%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.YY
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-26%;
+  font-size:11.5px;
+  color: black;
+  right: 13%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+#Zenbas
+{
+  position: absolute;
+  top: 1977.5%;
+  text-align: center;
+  width: 99%;
+  z-index: -1;
+  color: white;
+  text-decoration: none;
+}
+
+.ZZ
+{
+  position: absolute;
+  color:white;
+  z-index:20;
+  top:-25%;
+  font-size:11.5px;
+  color: black;
+  right: 16%;
+  text-decoration: none;
+  font-family: "Pixeled";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#bandenoire
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:40%;
+  z-index:10;
+}
+
+#bandenoire2
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:118.5%;
+  z-index:10;
+}
+
+#bandenoire3
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:197%;
+  z-index:10;
+}
+
+#bandenoire4
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:275.5%;
+  z-index:10;
+}
+
+#bandenoire5
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:354%;
+  z-index:10;
+}
+
+#bandenoire6
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:432.5%;
+  z-index:10;
+}
+
+#bandenoire7
+{
+  position:absolute;
+  background-color:black;
+  height:49.9%;
+  width:100%;
+  left:0%;
+  top:511%;
+  z-index:10;
+}
+
+#bandenoire8
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:589.5%;
+  z-index:10;
+}
+
+#bandenoire9
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:668%;
+  z-index:10;
+}
+
+#bandenoire10
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:746.5%;
+  z-index:10;
+}
+
+#bandenoire11
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:825%;
+  z-index:10;
+}
+
+#bandenoire12
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:903.5%;
+  z-index:10;
+}
+
+#bandenoire13
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:982%;
+  z-index:10;
+}
+
+#bandenoire14
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1060.5%;
+  z-index:10;
+}
+
+#bandenoire15
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1139%;
+  z-index:10;
+}
+
+#bandenoire16
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1217.5%;
+  z-index:10;
+}
+
+#bandenoire17
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1296%;
+  z-index:10;
+}
+
+#bandenoire18
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1374.5%;
+  z-index:10;
+}
+
+#bandenoire19
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1453%;
+  z-index:10;
+}
+
+#bandenoire20
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1531.5%;
+  z-index:10;
+}
+
+#bandenoire21
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1610%;
+  z-index:10;
+}
+
+#bandenoire22
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1688.5%;
+  z-index:10;
+}
+
+#bandenoire23
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1767%;
+  z-index:10;
+}
+
+#bandenoire24
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1845.5%;
+  z-index:10;
+}
+
+#bandenoire25
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:1924%;
+  z-index:10;
+}
+
+#bandenoire26
+{
+  position:absolute;
+  background-color:black;
+  height:50%;
+  width:100%;
+  left:0%;
+  top:2002.5%;
+  z-index:10;
+}
+
+#bandenoirefin
+{
+  position:absolute;
+  background-color:#f7b000;
+  height:10.5%;
+  width:100%;
+  left:0%;
+  top:2052.5%;
+  z-index:10;
+}
+
+.marque
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: white;
+  font-size:10px;
+  top:2053.5%;
+  text-align:center;
+  width: 99%; 
+  z-index: 10;
+}
+
+
+
+
+
+
+.assassincreedbanniere
+{
+  position: absolute;
+  top: 11.5%;
+  height:360px;
+  width: 100%;
+  right: 0%;
+  left:0%;
+  z-index: 1;
+}
+
+.assassincreed
+{
+  position: absolute;
+  top: 47%;
+  left:7%;
+  z-index: 10;
+  height: 37%;
+  width: 34%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.assassincreed:hover
+{
+  position: absolute;
+  top: 46.5%;
+  left:6.5%;
+  z-index: 10;
+  height: 38%;
+  width: 35%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.battlefieldbanniere
+{
+  position: absolute;
+  top: 75%;
+  height:450px;
+  width: 100%;
+  right: 0%;
+  left:0%;
+  z-index: 1;
+}
+
+.battlefield
+{
+  position: absolute;
+  top: 125.5%;
+  left:7%;
+  z-index: 10;
+  height: 37%;
+  width: 34%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.battlefield:hover
+{
+  position: absolute;
+  top: 125%;
+  left:6.5%;
+  z-index: 10;
+  height: 38%;
+  width: 35%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.callofwar2banniere
+{
+  position: absolute;
+  top: 155%;
+  height:450px;
+  width: 100%;
+  right: 0%;
+  left:0%;
+  z-index: 1;
+}
+
+.callofwar2
+{
+  position: absolute;
+  top: 204%;
+  left:7%;
+  z-index: 10;
+  height: 37%;
+  width: 34%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.callofwar2:hover
+{
+  position: absolute;
+  top: 203.5%;
+  left:6.5%;
+  z-index: 10;
+  height: 38%;
+  width: 35%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.dbzbanniere
+{
+  position: absolute;
+  top: 241%;
+  height:250px;
+  width: 100%;
+  right: 0%;
+  left:0%;
+  z-index: 1;
+}
+
+.dbz
+{
+  position: absolute;
+  top: 282%;
+  left:7%;
+  z-index: 10;
+  height: 37%;
+  width: 34%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.dbz:hover
+{
+  position: absolute;
+  top: 281.5%;
+  left:6.5%;
+  z-index: 10;
+  height: 38%;
+  width: 35%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.evolvebanniere
+{
+  position: absolute;
+  top: 308%;
+  border-width:1px;
+  height:450px;
+  width: 100%;
+  right: 0%;
+  left:0%;
+  z-index: 1;
+}
+
+.evolve
+{
+  position: absolute;
+  top: 360%;
+  left:7%;
+  z-index: 10;
+  height: 37%;
+  width: 34%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.evolve:hover
+{
+  position: absolute;
+  top: 359.5%;
+  left:6.5%;
+  z-index: 10;
+  height: 38%;
+  width: 35%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.fifa18banniere
+{
+  position: absolute;
+  top: 403%;
+  border-width:1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color:white;
+  border-bottom-color: white;
+  height:200px;
+  width: 100%;
+  right: 0%;
+  left:0%;
+  z-index: 1;
+}
+
+.fifa18
+{
+  position: absolute;
+  top: 438.5%;
+  left:7%;
+  z-index: 10;
+  height: 37%;
+  width: 34%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.fifa18:hover
+{
+  position: absolute;
+  top: 438%;
+  left:6.5%;
+  z-index: 10;
+  height: 38%;
+  width: 35%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.granturismobanniere
+{
+  position: absolute;
+  top: 465%;
+  height:400px;
+  width: 100%;
+  right: 0%;
+  left:0%;
+  z-index: 1;
+}
+
+.granturismo
+{
+  position: absolute;
+  top: 517%;
+  left:7%;
+  z-index: 10;
+  height: 37%;
+  width: 34%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.granturismo:hover
+{
+  position: absolute;
+  top: 516.5%;
+  left:6.5%;
+  z-index: 10;
+  height: 38%;
+  width: 35%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.hitmanbanniere
+{
+  position: absolute;
+  top: 525%;
+  height:600px;
+  width: 100%;
+  right: 0%;
+  left:0%;
+  z-index: 1;
+}
+
+.hitman
+{
+  position: absolute;
+  top: 595.5%;
+  left:7%;
+  z-index: 10;
+  height: 37%;
+  width: 34%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.hitman:hover
+{
+  position: absolute;
+  top: 595%;
+  left:6.5%;
+  z-index: 10;
+  height: 38%;
+  width: 35%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#jeuxena
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:28%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenb
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:106.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenc
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:185%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxend
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:263.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxene
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:342%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenf
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:420.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxeng
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:499%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenh
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:577.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxeni
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:656%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenj
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:734.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenk
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:813%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenl
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:891.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenm
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:970%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenn
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1048.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxeno
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1127%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenp
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1205.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenq
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1284%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenr
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1362.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxens
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1441%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxent
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1519.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenu
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1598%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenv
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1676.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenw
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1755%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenx
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1833.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxeny
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1912%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jeuxenz
+{
+  position: absolute;
+  font-family: "Pixeled";
+  color: #39ff36;
+  font-size:18px;
+  top:1990.5%;
+  left:6%;
+  z-index: 2;
+  background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,373 @@
+.hautdepage
+{
+	position:fixed;
+	background-color:black;
+	height:10%;
+	width:100%;
+	left:0%;
+	top:0%;
+	z-index:10;
+}
+
+h1
+{
+	position:absolute;
+	color:#4300A6;
+	top:15%;
+	left:42%;
+	font-family:"Pixeled";
+	font-size:150%;	
+}
+
+.nomdusite
+{
+	position: fixed;
+	top:-3.4%;
+	bottom: 100%;
+	left:7%;
+	color:white;
+	z-index:10;
+}
+
+.free
+{
+	position: fixed;
+	top:1.6%;
+	bottom: 100%;
+	left:12.5%;
+	color:white;
+	z-index:10;
+}
+
+.nomdusite:hover
+{
+	position: fixed;
+	top:-3.4%;
+	bottom: 100%;
+	left:5%;
+	color:white;
+	z-index:20;
+	transition-duration: 1s;
+	transition-property: all;
+	transition-timing-function: ease-out;
+}
+
+.free:hover
+{
+	position: fixed;
+	top:1.6%;
+	bottom: 100%;
+	left:10.5%;
+	color:white;
+	z-index:20;
+	transition-duration: 1s;
+}
+
+h1{
+animation: myfirst 10s infinite;
+-webkit-animation: myfirst 10s infinite;
+z-index: 9;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%{color:red;}
+    25%{color: yellow;}
+    50%{color: blue;}
+    100%{color: green;}
+}
+
+.logof
+{
+	position: fixed;
+	z-index:21;
+	top:2.5%;
+	left:75%;
+	height:50px;
+	width:50px;
+	 filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+.logof:hover
+{
+	position: fixed;
+	z-index:21;
+	top:2.5%;
+	left:75%;
+	height:50px;
+	width:50px;
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    transition-duration: 1s;
+}
+
+.logot
+{
+	position: fixed;
+	z-index:21;
+	top:2.78%;
+	left:80%;
+	height:42px;
+	width:42px;
+	 filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+.logot:hover
+{
+	position: fixed;
+	z-index:21;
+	top:2.78%;
+	left:80%;
+	height:42px;
+	width:42px;
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    transition-duration: 1s;
+}
+
+.logoy
+{
+	position: fixed;
+	z-index:21;
+	top:2.78%;
+	left:85%;
+	height:42px;
+	width:42px;
+	 filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+.logoy:hover
+{
+	position: fixed;
+	z-index:21;
+	top:2.78%;
+	left:85%;
+	height:42px;
+	width:42px;
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    transition-duration: 1s;
+}
+
+#all
+{
+	position: fixed;
+	z-index: 10;
+	text-align:center;
+    width: 100%;
+    top:2%;
+}
+
+.hautdepage
+{
+	position:fixed;
+	background-color:black;
+	height:11.5%;
+	width:100%;
+	left:0%;
+	top:0%;
+	z-index:10;
+	margin-right: 2%;
+}
+
+.ACCUEIL
+{
+	position:absolute;
+	color:white;
+	top:0%;
+	text-align:center;
+	width: 99%;	
+	z-index:10;
+	text-decoration:none;
+	font-size:150%;
+	font-family:"Pixeled";
+}
+
+.JEUX
+{
+	position:absolute;
+	color:white;
+	top:0%;
+	text-align:center;
+	z-index:2;
+	text-decoration:none;
+	font-size:150%;
+	font-family:"Pixeled";
+}
+
+.ACTUALITE
+{
+	position:absolute;
+	color:white;
+	top:0%;
+	z-index:2;
+	text-decoration:none;
+	font-size:150%;
+	font-family:"Pixeled";
+}
+
+.ACCUEIL {
+  margin: 0;
+  font: 400 80px/1 "Pixeled";
+  /*le texte accueil et tout*/
+}
+
+.ACCUEIL {
+  top:14px;
+  font-size: 22px;
+  z-index:10;
+  /*configuration du texte*/
+  padding: .25em 15px;
+  position: relative;
+  transition: .5s ease;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ACCUEIL::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 0;
+  /*bloc d'animation*/
+  height:35px;
+  width: 5px;
+  transition: .5s ease;
+  background: white;
+  z-index: -1;
+}
+
+.ACCUEIL:hover {
+  color: red;
+  /*couleur du texte au survol*/
+}
+
+.ACCUEIL:hover::before {
+  width: 100%;
+  /*animation*/
+}
+
+.JEUX {
+  margin: 0;
+  font: 400 80px/1 "Pixeled";
+  /*le texte accueil et tout*/
+}
+
+.JEUX {
+  top:14px;
+  font-size: 22px;
+  z-index:10;
+  /*configuration du texte*/
+  padding: .25em 15px;
+  position: relative;
+  transition: .5s ease;
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.JEUX::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 0;
+  /*bloc d'animation*/
+  height:35px;
+  width: 5px;
+  transition: .5s ease;
+  background: white;
+  z-index: -1;
+}
+
+.JEUX:hover {
+  color: orange;
+  /*couleur du texte au survol*/
+}
+
+.JEUX:hover::before {
+  width: 100%;
+  /*animation*/
+}
+
+.ACTUALITE {
+
+  font: 400 80px/1 "Pixeled";
+  /*le texte accueil et tout*/
+}
+
+.ACTUALITE {
+  top:14px;
+  font-size: 22px;
+  z-index:10;
+  /*configuration du texte*/
+  padding: .25em 15px;
+  position: relative;
+  transition: .5s ease;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ACTUALITE::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 0;
+  /*bloc d'animation*/
+  height:35px;
+  width: 5px;
+  transition: .5s ease;
+  background: white;
+  z-index: -1;
+}
+
+.ACTUALITE:hover {
+  color: yellow;
+  /*couleur du texte au survol*/
+}
+
+.ACTUALITE:hover::before {
+  width: 100%;
+  /*animation*/
+}
+
+.fifa18
+{
+	position:absolute;
+	top:35%;
+	left:35%;
+	height:45%;
+	width:35%;
+}
+
+.fifa18background
+{
+	position:absolute;
+	height:100%;
+	width:100%;
+	z-index:-1;
+}
